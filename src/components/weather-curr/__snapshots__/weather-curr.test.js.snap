@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test that weather element functions with blank data 1`] = `
+<h1>
+  Weather Data Unavailable
+</h1>
+`;
+
+exports[`should test that weather element functions with complete data 1`] = `
+<div
+  className="currWeather"
+>
+  <div
+    className="above"
+  >
+    <div>
+      <p
+        className="city"
+      >
+        La Massana, AD
+      </p>
+      <p
+        className="description"
+      >
+        overcast clouds
+      </p>
+    </div>
+    <img
+      alt="weather"
+      className="icon"
+      src="icons/04n.png"
+    />
+  </div>
+  <div
+    className="below"
+  >
+    <p
+      className="temp"
+    >
+      8.28
+      °C
+    </p>
+    <div
+      className="extrainfo"
+    >
+      <div
+        className="row"
+      >
+        <span
+          className="Details"
+        >
+           Details
+        </span>
+      </div>
+      <div
+        className="row"
+      >
+        <span
+          className="label"
+        >
+          Wind: 
+        </span>
+        <span
+          className="value"
+        >
+          2.32
+           m/s
+        </span>
+      </div>
+      <div
+        className="row"
+      >
+        <span
+          className="label"
+        >
+          Humidity: 
+        </span>
+        <span
+          className="value"
+        >
+          85
+          %
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
